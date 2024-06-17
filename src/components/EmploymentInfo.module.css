@@ -1,0 +1,69 @@
+.yourEmployer {
+  width: 506px;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.jobDetailFieldsChild {
+  height: 54px;
+  width: 996px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-aliceblue-100);
+  border: 1px solid var(--color-lavender-200);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.employer {
+  width: 506px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-dm-sans);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  height: 26px;
+  position: relative;
+  letter-spacing: -0.02em;
+  color: var(--color-gray-300);
+  text-align: justify;
+  display: inline-block;
+  max-width: 100%;
+  padding: 0;
+  z-index: 2;
+}
+.employmentInfo,
+.jobDetailFields {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.jobDetailFields {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-aliceblue-100);
+  border: 1px solid var(--color-lavender-200);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-mid);
+  z-index: 1;
+}
+.employmentInfo {
+  flex-direction: column;
+  padding: 0 0 var(--padding-8xs);
+  gap: var(--gap-xs);
+  text-align: justify;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-dm-sans);
+}
+@media screen and (max-width: 450px) {
+  .employer,
+  .yourEmployer {
+    font-size: var(--font-size-base);
+  }
+}

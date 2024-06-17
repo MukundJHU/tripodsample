@@ -1,0 +1,596 @@
+.dataSourcesHyperlink,
+.howCanI,
+.isItPossible,
+.labelCodingSystems {
+  margin: 0;
+}
+.labelCodingSystemsContainer,
+.submitDataSource {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.labelCodingSystemsContainer {
+  margin-top: -305px;
+  margin-left: -1329px;
+  margin-bottom: 204px;
+  width: 364px;
+  height: 101px;
+  debug_commit: 448091;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.submitDataSource {
+  margin: 0;
+  width: 353px;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  font-family: inherit;
+}
+.submitTitle {
+  width: 967px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.stepSeparator {
+  position: absolute;
+  top: 42px;
+  left: 31px;
+  border-right: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1px;
+  height: 307px;
+  z-index: 1;
+}
+.submitterInformation {
+  position: absolute;
+  top: 33px;
+  left: 48px;
+  letter-spacing: -0.02em;
+  display: inline-block;
+  width: 225px;
+  height: 21px;
+  z-index: 1;
+}
+.authors,
+.categories,
+.codeList,
+.demographics,
+.institutions,
+.otherInformation,
+.phenotypeBasicInformation,
+.publications {
+  position: absolute;
+  top: 71px;
+  left: 48px;
+  letter-spacing: -0.02em;
+  display: inline-block;
+  width: 225px;
+  height: 21px;
+  z-index: 1;
+}
+.authors,
+.categories,
+.codeList,
+.demographics,
+.institutions,
+.otherInformation,
+.publications {
+  top: 109px;
+}
+.authors,
+.categories,
+.codeList,
+.institutions,
+.otherInformation,
+.publications {
+  top: 147px;
+}
+.authors,
+.categories,
+.codeList,
+.institutions,
+.otherInformation {
+  top: 185px;
+}
+.categories,
+.codeList,
+.institutions,
+.otherInformation {
+  top: 223px;
+}
+.categories,
+.codeList,
+.otherInformation {
+  top: 261px;
+}
+.codeList,
+.otherInformation {
+  top: 299px;
+}
+.otherInformation {
+  top: 337px;
+  height: 28px;
+}
+.progressIndicatorChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-aliceblue-100);
+  border: 1px solid var(--color-lavender-200);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.indicatorCircles,
+.indicatorCircles1 {
+  position: absolute;
+  top: 41px;
+  left: 28px;
+  border-radius: 50%;
+  background-color: var(--color-slategray-200);
+  width: 7px;
+  height: 7px;
+  z-index: 2;
+}
+.indicatorCircles1 {
+  top: 78px;
+}
+.indicatorCircles2,
+.indicatorCircles3,
+.indicatorCircles4,
+.indicatorCircles5,
+.indicatorCircles6,
+.indicatorCircles7,
+.indicatorCircles8 {
+  position: absolute;
+  top: 116px;
+  left: 28px;
+  border-radius: 50%;
+  background-color: var(--color-slategray-200);
+  width: 7px;
+  height: 7px;
+  z-index: 2;
+}
+.indicatorCircles3,
+.indicatorCircles4,
+.indicatorCircles5,
+.indicatorCircles6,
+.indicatorCircles7,
+.indicatorCircles8 {
+  top: 154px;
+}
+.indicatorCircles4,
+.indicatorCircles5,
+.indicatorCircles6,
+.indicatorCircles7,
+.indicatorCircles8 {
+  top: 192px;
+}
+.indicatorCircles5,
+.indicatorCircles6,
+.indicatorCircles7,
+.indicatorCircles8 {
+  top: 230px;
+}
+.indicatorCircles6,
+.indicatorCircles7,
+.indicatorCircles8 {
+  top: 268px;
+}
+.indicatorCircles7,
+.indicatorCircles8 {
+  top: 306px;
+}
+.indicatorCircles8 {
+  top: 344px;
+}
+.progressIndicator {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 264px;
+}
+.frameChild,
+.stepTitles {
+  height: 398px;
+  width: 273px;
+  position: relative;
+}
+.frameChild {
+  width: 1054px;
+  height: 762px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-ghostwhite);
+  display: none;
+  max-width: 100%;
+}
+.submitterInformation1,
+.weWillNot {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-family: var(--font-dm-sans);
+  color: var(--color-black);
+  text-align: justify;
+  z-index: 1;
+}
+.submitterInformation1 {
+  width: 915px;
+  font-size: var(--font-size-7xl);
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.weWillNot {
+  align-self: stretch;
+  font-size: var(--font-size-xl);
+}
+.submitterInfo {
+  width: 985px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-sm);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.yourEmail1 {
+  color: var(--color-black);
+}
+.span {
+  color: var(--color-crimson);
+}
+.yourEmail {
+  width: 506px;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  text-align: justify;
+  display: inline-block;
+  z-index: 1;
+}
+.email,
+.emailInputChild,
+.yourEmail {
+  position: relative;
+  max-width: 100%;
+}
+.emailInputChild {
+  height: 54px;
+  width: 996px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-aliceblue-100);
+  border: 1px solid var(--color-lavender-200);
+  box-sizing: border-box;
+  display: none;
+}
+.email {
+  width: 506px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-dm-sans);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  height: 26px;
+  letter-spacing: -0.02em;
+  color: var(--color-gray-300);
+  text-align: justify;
+  display: inline-block;
+  padding: 0;
+  z-index: 2;
+}
+.emailField,
+.emailInput {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.emailInput {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-aliceblue-100);
+  border: 1px solid var(--color-lavender-200);
+  padding: var(--padding-xs) var(--padding-mid);
+  z-index: 1;
+}
+.emailField {
+  align-self: stretch;
+  padding: 0 0 var(--padding-8xs);
+}
+.employmentFields {
+  gap: var(--gap-xs);
+}
+.employmentFields,
+.privacyContent,
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleParent {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-ghostwhite);
+  padding: var(--padding-24xl) var(--padding-6xl) var(--padding-43xl);
+  box-sizing: border-box;
+  gap: var(--gap-mid);
+}
+.privacyContent {
+  gap: var(--gap-6xl);
+}
+.dataSourceFieldsChild {
+  width: 1054px;
+  height: 459px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-ghostwhite);
+  display: none;
+  max-width: 100%;
+}
+.dataSource {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-7xl);
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  color: var(--color-black);
+  text-align: justify;
+  z-index: 1;
+}
+.dataSourceFields,
+.dataSourceTitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.dataSourceTitle {
+  width: 210px;
+  flex-direction: row;
+  padding: 0 0 var(--padding-3xs);
+}
+.dataSourceFields {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-ghostwhite);
+  flex-direction: column;
+  padding: var(--padding-21xl) var(--padding-37xl) 48px;
+  gap: var(--gap-mid);
+  max-width: 100%;
+}
+.submitDataSource1 {
+  width: 182px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  color: var(--color-gray-200);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.privacy,
+.submitButton {
+  justify-content: flex-start;
+}
+.submitButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-sm);
+  background-color: var(--color-darkblue);
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  white-space: nowrap;
+}
+.submitButton:hover {
+  background-color: var(--color-darkorchid);
+}
+.privacy {
+  margin: 0;
+  flex: 1;
+  flex-direction: column;
+  gap: 39.5px;
+  min-width: 688px;
+}
+.content,
+.formSteps,
+.privacy,
+.submission,
+.submissionForm {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.formSteps {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-15xl);
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.content,
+.submission,
+.submissionForm {
+  justify-content: flex-start;
+}
+.submissionForm {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xl);
+}
+.content,
+.submission {
+  box-sizing: border-box;
+}
+.submission {
+  width: 1485px;
+  flex-direction: row;
+  padding: 0 var(--padding-41xl);
+  text-align: justify;
+  font-size: var(--font-size-15xl);
+  color: var(--dark-blue);
+  font-family: var(--font-dm-sans);
+}
+.content {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 var(--padding-62xl);
+  gap: var(--gap-smi);
+  flex-shrink: 0;
+  debug_commit: 448091;
+}
+.footerChild {
+  height: 60px;
+  width: 1512px;
+  position: relative;
+  background-color: var(--color-lavender-200);
+  display: none;
+  max-width: 100%;
+}
+.copyrightClinicalNlpLab {
+  width: 657px;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-lavender-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-midnightblue);
+  font-family: var(--font-dm-sans);
+}
+.resourcessubmitDataSource {
+  width: 100%;
+  height: 1997px;
+  position: relative;
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+@media screen and (max-width: 1200px) {
+  .submission {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .content {
+    padding-bottom: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+  .resourcessubmitDataSource {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .submitDataSource {
+    font-size: var(--font-size-8xl);
+  }
+  .dataSourceFields {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .privacy {
+    min-width: 100%;
+  }
+  .content {
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    padding-top: var(--padding-9xl);
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .privacy {
+    gap: var(--gap-xl);
+  }
+  .formSteps {
+    gap: var(--gap-mid);
+  }
+}
+@media screen and (max-width: 450px) {
+  .labelCodingSystemsContainer {
+    font-size: var(--font-size-base);
+  }
+  .submitDataSource {
+    font-size: var(--font-size-xl);
+  }
+  .submitterInformation1 {
+    font-size: var(--font-size-2xl);
+  }
+  .email,
+  .weWillNot,
+  .yourEmail {
+    font-size: var(--font-size-base);
+  }
+  .rectangleParent {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+  .dataSource {
+    font-size: var(--font-size-2xl);
+  }
+  .dataSourceFields {
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .content {
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}

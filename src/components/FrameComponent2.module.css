@@ -1,0 +1,112 @@
+.frameChild {
+  height: 103px;
+  width: 1080px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-lavender-200);
+  display: none;
+  max-width: 100%;
+}
+.findAPhenotype {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  z-index: 3;
+}
+.findAPhenotypeWrapper {
+  width: 213px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+}
+.frameItem {
+  height: 60px;
+  width: 779px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-100);
+  display: none;
+  max-width: 100%;
+}
+.imLookingFor {
+  width: 260px;
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  height: 32px;
+  position: relative;
+  letter-spacing: -0.02em;
+  color: var(--color-gray-300);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  z-index: 4;
+}
+.search24dpFill0Wght400GradIcon {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.search24dpFill0Wght400GradWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.rectangleGroup,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleGroup {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-100);
+  justify-content: space-between;
+  padding: var(--padding-4xs) var(--padding-5xl) var(--padding-smi)
+    var(--padding-14xl);
+  min-width: 294px;
+  gap: var(--gap-xl);
+  z-index: 3;
+}
+.rectangleParent {
+  width: 1080px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-lavender-200);
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-17xl) var(--padding-2xl)
+    var(--padding-21xl);
+  gap: var(--gap-xs);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-dm-sans);
+}
+@media screen and (max-width: 750px) {
+  .rectangleGroup {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .findAPhenotype,
+  .imLookingFor {
+    font-size: var(--font-size-lgi);
+  }
+}

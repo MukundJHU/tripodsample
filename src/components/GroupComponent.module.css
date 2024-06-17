@@ -1,0 +1,121 @@
+.frameChild {
+  width: 1392px;
+  height: 214px;
+  position: relative;
+  border-radius: var(--br-xl);
+  border: 1px solid var(--color-lavender-200);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.get {
+  font-weight: 500;
+}
+.getApiv1phenotypesuu {
+  width: 878px;
+  max-width: 100%;
+}
+.getApiv1phenotypesuu,
+.phenotypeUniqueIdentifier,
+.uuid {
+  position: relative;
+  letter-spacing: -0.02em;
+  display: inline-block;
+  z-index: 1;
+}
+.uuid {
+  width: 57px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.phenotypeUniqueIdentifier {
+  flex: 1;
+  min-width: 210px;
+  max-width: 100%;
+}
+.uuidIdentifiers {
+  width: 418px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+  max-width: 100%;
+}
+.returns,
+.thePhenotypeWith {
+  position: relative;
+  letter-spacing: -0.02em;
+  display: inline-block;
+  z-index: 1;
+}
+.returns {
+  text-decoration: none;
+  font-weight: 500;
+  color: inherit;
+  min-width: 75px;
+}
+.thePhenotypeWith {
+  flex: 1;
+  min-width: 313px;
+  max-width: 100%;
+}
+.rectangleParent,
+.returnsParent,
+.uuidIdentifiersParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.returnsParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-xl);
+}
+.rectangleParent,
+.uuidIdentifiersParent {
+  flex-direction: column;
+  gap: var(--gap-mid);
+}
+.uuidIdentifiersParent {
+  width: 577px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  border: 1px solid var(--color-lavender-200);
+  box-sizing: border-box;
+  padding: var(--padding-23xl) var(--padding-24xl);
+  text-align: justify;
+  font-size: var(--font-size-7xl);
+  color: var(--color-darkblue);
+  font-family: var(--font-dm-sans);
+}
+@media screen and (max-width: 975px) {
+  .rectangleParent {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .getApiv1phenotypesuu {
+    font-size: var(--font-size-2xl);
+  }
+  .phenotypeUniqueIdentifier,
+  .uuid {
+    font-size: var(--font-size-base);
+  }
+  .uuidIdentifiers {
+    gap: var(--gap-lgi);
+  }
+  .returns,
+  .thePhenotypeWith {
+    font-size: var(--font-size-base);
+  }
+}

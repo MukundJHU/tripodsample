@@ -1,0 +1,63 @@
+.codeSystemChild {
+  height: 60px;
+  width: 1039px;
+  position: relative;
+  background-color: var(--color-aliceblue-200);
+  border-right: 1px solid var(--color-lavender-200);
+  border-left: 1px solid var(--color-lavender-200);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  display: none;
+}
+.k317 {
+  position: relative;
+  letter-spacing: -0.02em;
+  display: inline-block;
+  min-width: 33px;
+  z-index: 3;
+}
+.codeValue {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini) 0 0;
+}
+.icd10,
+.polypOfStomach {
+  position: relative;
+  letter-spacing: -0.02em;
+  z-index: 3;
+}
+.icd10 {
+  display: inline-block;
+  min-width: 49px;
+}
+.codeSystem {
+  align-self: stretch;
+  background-color: var(--color-aliceblue-200);
+  border-right: 1px solid var(--color-lavender-200);
+  border-left: 1px solid var(--color-lavender-200);
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-2xl) var(--padding-lgi);
+  gap: var(--gap-189xl);
+  z-index: 2;
+  text-align: justify;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-dm-sans);
+}
+@media screen and (max-width: 1050px) {
+  .codeSystem {
+    gap: var(--gap-85xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .codeSystem {
+    gap: var(--gap-33xl);
+  }
+}

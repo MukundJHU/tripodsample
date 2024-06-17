@@ -1,0 +1,196 @@
+.dataSourcesHyperlink,
+.howCanI,
+.isItPossible,
+.labelCodingSystems {
+  margin: 0;
+}
+.labelCodingSystemsContainer {
+  margin-top: -305px;
+  margin-left: -1329px;
+  margin-bottom: 114px;
+  width: 364px;
+  height: 101px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.apiReference1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  font-family: inherit;
+}
+.complyApiResponses {
+  font-family: var(--font-dm-sans);
+}
+.complyApiResponsesIncludeO {
+  margin: 0;
+}
+.blankLine1 {
+  font-family: var(--font-dm-sans);
+}
+.blankLine {
+  margin: 0;
+}
+.apiResponseSchema {
+  font-weight: 500;
+}
+.linkmlyaml2 {
+  text-decoration: underline;
+}
+.linkmlyaml1 {
+  font-weight: 500;
+}
+.linkmlyaml {
+  color: inherit;
+}
+.span {
+  font-weight: 500;
+}
+.rdfshex2 {
+  text-decoration: underline;
+}
+.rdfshex1 {
+  font-weight: 500;
+}
+.rdfshex {
+  color: inherit;
+}
+.span1 {
+  font-weight: 500;
+}
+.rdfshacl2 {
+  text-decoration: underline;
+}
+.rdfshacl1 {
+  font-weight: 500;
+}
+.rdfshacl {
+  color: inherit;
+}
+.span2 {
+  font-weight: 500;
+}
+.jsonSchema2 {
+  text-decoration: underline;
+}
+.jsonSchema1 {
+  font-weight: 500;
+}
+.jsonSchema {
+  color: inherit;
+}
+.apiResponseSchemaDefinition {
+  margin: 0;
+}
+.complyApiResponsesContainer {
+  width: 1386px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.02em;
+  color: var(--color-black);
+  display: inline-block;
+  max-height: 130px;
+  word-break: break-word;
+}
+.apiDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mid);
+  gap: var(--gap-3xl);
+}
+.apiDescriptionParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 41px;
+  max-width: 100%;
+}
+.apiDescriptionParent,
+.apiReference,
+.content,
+.resourcesapiReference {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.apiReference {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-41xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: justify;
+  font-size: var(--font-size-15xl);
+  color: var(--dark-blue);
+  font-family: var(--font-dm-sans);
+}
+.content,
+.resourcesapiReference {
+  flex-direction: column;
+}
+.content {
+  align-self: stretch;
+  gap: var(--gap-37xl);
+  flex-shrink: 0;
+  debug_commit: 448091;
+  max-width: 100%;
+}
+.resourcesapiReference {
+  width: 100%;
+  height: 1450px;
+  position: relative;
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  gap: 90px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+@media screen and (max-width: 950px) {
+  .apiReference1 {
+    font-size: var(--font-size-8xl);
+  }
+  .apiReference {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .content {
+    gap: var(--gap-9xl);
+  }
+  .resourcesapiReference {
+    gap: 45px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .apiDescriptionParent {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .labelCodingSystemsContainer {
+    font-size: var(--font-size-base);
+  }
+  .apiReference1 {
+    font-size: var(--font-size-xl);
+  }
+  .complyApiResponsesContainer {
+    font-size: var(--font-size-base);
+  }
+  .resourcesapiReference {
+    height: auto;
+    gap: var(--gap-3xl);
+  }
+}

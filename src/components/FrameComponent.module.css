@@ -1,0 +1,97 @@
+.frameChild {
+  width: 1512px;
+  height: 166px;
+  position: relative;
+  background-color: var(--color-midnightblue);
+  display: none;
+  max-width: 100%;
+}
+.complyLogo6x2 {
+  width: 278.6px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 3;
+}
+.r01ag0734351 {
+  text-decoration: underline;
+}
+.r01ag073435 {
+  color: inherit;
+}
+.complyIsSupportedByTheNat {
+  margin: 0;
+}
+.complyIsSupportedContainer {
+  width: 290px;
+  position: relative;
+  letter-spacing: -0.02em;
+  display: inline-block;
+  z-index: 3;
+}
+.rectangleParent {
+  align-self: stretch;
+  height: 166px;
+  background-color: var(--color-midnightblue);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-xl) var(--padding-8xl)
+    var(--padding-41xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-aliceblue-100);
+  font-family: var(--font-dm-sans);
+}
+.footerChild {
+  height: 60px;
+  width: 1512px;
+  position: relative;
+  background-color: var(--color-lavender-200);
+  display: none;
+  max-width: 100%;
+}
+.copyrightClinicalNlpLab {
+  width: 657px;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.footer,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footer {
+  background-color: var(--color-lavender-200);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+}
+.frameParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-midnightblue);
+  font-family: var(--font-dm-sans);
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
